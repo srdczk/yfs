@@ -1,0 +1,246 @@
+[
+ {
+  "directory": "/home/chengzekun/yfs/yfsLab1/lab1",
+  "arguments": [
+   "g++",
+   "-g",
+   "-MMD",
+   "-Wall",
+   "-I.",
+   "-I./rpc",
+   "-DLAB=1",
+   "-DSOL=0",
+   "-D_FILE_OFFSET_BITS=64",
+   "-c",
+   "rpc/rpc.cc",
+   "-o",
+   "rpc/rpc.o"
+  ],
+  "file": "rpc/rpc.cc"
+ },
+ {
+  "directory": "/home/chengzekun/yfs/yfsLab1/lab1",
+  "arguments": [
+   "g++",
+   "-g",
+   "-MMD",
+   "-Wall",
+   "-I.",
+   "-I./rpc",
+   "-DLAB=1",
+   "-DSOL=0",
+   "-D_FILE_OFFSET_BITS=64",
+   "-c",
+   "rpc/connection.cc",
+   "-o",
+   "rpc/connection.o"
+  ],
+  "file": "rpc/connection.cc"
+ },
+ {
+  "directory": "/home/chengzekun/yfs/yfsLab1/lab1",
+  "arguments": [
+   "g++",
+   "-g",
+   "-MMD",
+   "-Wall",
+   "-I.",
+   "-I./rpc",
+   "-DLAB=1",
+   "-DSOL=0",
+   "-D_FILE_OFFSET_BITS=64",
+   "-c",
+   "rpc/pollmgr.cc",
+   "-o",
+   "rpc/pollmgr.o"
+  ],
+  "file": "rpc/pollmgr.cc"
+ },
+ {
+  "directory": "/home/chengzekun/yfs/yfsLab1/lab1",
+  "arguments": [
+   "g++",
+   "-g",
+   "-MMD",
+   "-Wall",
+   "-I.",
+   "-I./rpc",
+   "-DLAB=1",
+   "-DSOL=0",
+   "-D_FILE_OFFSET_BITS=64",
+   "-c",
+   "rpc/thr_pool.cc",
+   "-o",
+   "rpc/thr_pool.o"
+  ],
+  "file": "rpc/thr_pool.cc"
+ },
+ {
+  "directory": "/home/chengzekun/yfs/yfsLab1/lab1",
+  "arguments": [
+   "g++",
+   "-g",
+   "-MMD",
+   "-Wall",
+   "-I.",
+   "-I./rpc",
+   "-DLAB=1",
+   "-DSOL=0",
+   "-D_FILE_OFFSET_BITS=64",
+   "-c",
+   "rpc/jsl_log.cc",
+   "-o",
+   "rpc/jsl_log.o"
+  ],
+  "file": "rpc/jsl_log.cc"
+ },
+ {
+  "directory": "/home/chengzekun/yfs/yfsLab1/lab1",
+  "arguments": [
+   "g++",
+   "-g",
+   "-MMD",
+   "-Wall",
+   "-I.",
+   "-I./rpc",
+   "-DLAB=1",
+   "-DSOL=0",
+   "-D_FILE_OFFSET_BITS=64",
+   "-c",
+   "gettime.cc",
+   "-o",
+   "gettime.o"
+  ],
+  "file": "gettime.cc"
+ },
+ {
+  "directory": "/home/chengzekun/yfs/yfsLab1/lab1",
+  "arguments": [
+   "g++",
+   "-g",
+   "-MMD",
+   "-Wall",
+   "-I.",
+   "-I./rpc",
+   "-DLAB=1",
+   "-DSOL=0",
+   "-D_FILE_OFFSET_BITS=64",
+   "-L.",
+   "-L/usr/local/lib",
+   "rpc/rpctest.cc",
+   "rpc/librpc.a",
+   "rpc/rpc.h",
+   "rpc/thr_pool.h",
+   "rpc/fifo.h",
+   "rpc/slock.h",
+   "lang/verify.h",
+   "rpc/marshall.h",
+   "lang/algorithm.h",
+   "rpc/connection.h",
+   "rpc/pollmgr.h",
+   "rpc/jsl_log.h",
+   "gettime.h",
+   "-lpthread",
+   "-lrt",
+   "-ldl",
+   "-o",
+   "rpc/rpctest"
+  ],
+  "file": "rpc/rpctest.cc"
+ },
+ {
+  "directory": "/home/chengzekun/yfs/yfsLab1/lab1",
+  "arguments": [
+   "g++",
+   "-g",
+   "-MMD",
+   "-Wall",
+   "-I.",
+   "-I./rpc",
+   "-DLAB=1",
+   "-DSOL=0",
+   "-D_FILE_OFFSET_BITS=64",
+   "-c",
+   "lock_server.cc",
+   "-o",
+   "lock_server.o"
+  ],
+  "file": "lock_server.cc"
+ },
+ {
+  "directory": "/home/chengzekun/yfs/yfsLab1/lab1",
+  "arguments": [
+   "g++",
+   "-g",
+   "-MMD",
+   "-Wall",
+   "-I.",
+   "-I./rpc",
+   "-DLAB=1",
+   "-DSOL=0",
+   "-D_FILE_OFFSET_BITS=64",
+   "-c",
+   "lock_smain.cc",
+   "-o",
+   "lock_smain.o"
+  ],
+  "file": "lock_smain.cc"
+ },
+ {
+  "directory": "/home/chengzekun/yfs/yfsLab1/lab1",
+  "arguments": [
+   "g++",
+   "-g",
+   "-MMD",
+   "-Wall",
+   "-I.",
+   "-I./rpc",
+   "-DLAB=1",
+   "-DSOL=0",
+   "-D_FILE_OFFSET_BITS=64",
+   "-c",
+   "lock_tester.cc",
+   "-o",
+   "lock_tester.o"
+  ],
+  "file": "lock_tester.cc"
+ },
+ {
+  "directory": "/home/chengzekun/yfs/yfsLab1/lab1",
+  "arguments": [
+   "g++",
+   "-g",
+   "-MMD",
+   "-Wall",
+   "-I.",
+   "-I./rpc",
+   "-DLAB=1",
+   "-DSOL=0",
+   "-D_FILE_OFFSET_BITS=64",
+   "-c",
+   "lock_client.cc",
+   "-o",
+   "lock_client.o"
+  ],
+  "file": "lock_client.cc"
+ },
+ {
+  "directory": "/home/chengzekun/yfs/yfsLab1/lab1",
+  "arguments": [
+   "g++",
+   "-g",
+   "-MMD",
+   "-Wall",
+   "-I.",
+   "-I./rpc",
+   "-DLAB=1",
+   "-DSOL=0",
+   "-D_FILE_OFFSET_BITS=64",
+   "-c",
+   "lock_demo.cc",
+   "-o",
+   "lock_demo.o"
+  ],
+  "file": "lock_demo.cc"
+ }
+]

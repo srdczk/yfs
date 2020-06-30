@@ -1,0 +1,303 @@
+[
+ {
+  "directory": "/home/chengzekun/yfs/yfsLab3/lab3",
+  "arguments": [
+   "g++",
+   "-g",
+   "-MMD",
+   "-Wall",
+   "-I.",
+   "-I./rpc",
+   "-DLAB=3",
+   "-DSOL=0",
+   "-D_FILE_OFFSET_BITS=64",
+   "-c",
+   "yfs_client.cc",
+   "-o",
+   "yfs_client.o"
+  ],
+  "file": "yfs_client.cc"
+ },
+ {
+  "directory": "/home/chengzekun/yfs/yfsLab3/lab3",
+  "arguments": [
+   "g++",
+   "-g",
+   "-MMD",
+   "-Wall",
+   "-I.",
+   "-I./rpc",
+   "-DLAB=3",
+   "-DSOL=0",
+   "-D_FILE_OFFSET_BITS=64",
+   "-c",
+   "extent_client.cc",
+   "-o",
+   "extent_client.o"
+  ],
+  "file": "extent_client.cc"
+ },
+ {
+  "directory": "/home/chengzekun/yfs/yfsLab3/lab3",
+  "arguments": [
+   "g++",
+   "-c",
+   "-g",
+   "-MMD",
+   "-Wall",
+   "-I.",
+   "-I./rpc",
+   "-DLAB=3",
+   "-DSOL=0",
+   "-D_FILE_OFFSET_BITS=64",
+   "-D_FILE_OFFSET_BITS=64",
+   "-DFUSE_USE_VERSION=25",
+   "-I/usr/local/include/fuse",
+   "-I/usr/include/fuse",
+   "fuse.cc"
+  ],
+  "file": "fuse.cc"
+ },
+ {
+  "directory": "/home/chengzekun/yfs/yfsLab3/lab3",
+  "arguments": [
+   "g++",
+   "-g",
+   "-MMD",
+   "-Wall",
+   "-I.",
+   "-I./rpc",
+   "-DLAB=3",
+   "-DSOL=0",
+   "-D_FILE_OFFSET_BITS=64",
+   "-c",
+   "lock_client.cc",
+   "-o",
+   "lock_client.o"
+  ],
+  "file": "lock_client.cc"
+ },
+ {
+  "directory": "/home/chengzekun/yfs/yfsLab3/lab3",
+  "arguments": [
+   "g++",
+   "-g",
+   "-MMD",
+   "-Wall",
+   "-I.",
+   "-I./rpc",
+   "-DLAB=3",
+   "-DSOL=0",
+   "-D_FILE_OFFSET_BITS=64",
+   "-c",
+   "rpc/rpc.cc",
+   "-o",
+   "rpc/rpc.o"
+  ],
+  "file": "rpc/rpc.cc"
+ },
+ {
+  "directory": "/home/chengzekun/yfs/yfsLab3/lab3",
+  "arguments": [
+   "g++",
+   "-g",
+   "-MMD",
+   "-Wall",
+   "-I.",
+   "-I./rpc",
+   "-DLAB=3",
+   "-DSOL=0",
+   "-D_FILE_OFFSET_BITS=64",
+   "-c",
+   "rpc/connection.cc",
+   "-o",
+   "rpc/connection.o"
+  ],
+  "file": "rpc/connection.cc"
+ },
+ {
+  "directory": "/home/chengzekun/yfs/yfsLab3/lab3",
+  "arguments": [
+   "g++",
+   "-g",
+   "-MMD",
+   "-Wall",
+   "-I.",
+   "-I./rpc",
+   "-DLAB=3",
+   "-DSOL=0",
+   "-D_FILE_OFFSET_BITS=64",
+   "-c",
+   "rpc/pollmgr.cc",
+   "-o",
+   "rpc/pollmgr.o"
+  ],
+  "file": "rpc/pollmgr.cc"
+ },
+ {
+  "directory": "/home/chengzekun/yfs/yfsLab3/lab3",
+  "arguments": [
+   "g++",
+   "-g",
+   "-MMD",
+   "-Wall",
+   "-I.",
+   "-I./rpc",
+   "-DLAB=3",
+   "-DSOL=0",
+   "-D_FILE_OFFSET_BITS=64",
+   "-c",
+   "rpc/thr_pool.cc",
+   "-o",
+   "rpc/thr_pool.o"
+  ],
+  "file": "rpc/thr_pool.cc"
+ },
+ {
+  "directory": "/home/chengzekun/yfs/yfsLab3/lab3",
+  "arguments": [
+   "g++",
+   "-g",
+   "-MMD",
+   "-Wall",
+   "-I.",
+   "-I./rpc",
+   "-DLAB=3",
+   "-DSOL=0",
+   "-D_FILE_OFFSET_BITS=64",
+   "-c",
+   "rpc/jsl_log.cc",
+   "-o",
+   "rpc/jsl_log.o"
+  ],
+  "file": "rpc/jsl_log.cc"
+ },
+ {
+  "directory": "/home/chengzekun/yfs/yfsLab3/lab3",
+  "arguments": [
+   "g++",
+   "-g",
+   "-MMD",
+   "-Wall",
+   "-I.",
+   "-I./rpc",
+   "-DLAB=3",
+   "-DSOL=0",
+   "-D_FILE_OFFSET_BITS=64",
+   "-c",
+   "gettime.cc",
+   "-o",
+   "gettime.o"
+  ],
+  "file": "gettime.cc"
+ },
+ {
+  "directory": "/home/chengzekun/yfs/yfsLab3/lab3",
+  "arguments": [
+   "g++",
+   "-g",
+   "-MMD",
+   "-Wall",
+   "-I.",
+   "-I./rpc",
+   "-DLAB=3",
+   "-DSOL=0",
+   "-D_FILE_OFFSET_BITS=64",
+   "-c",
+   "extent_server.cc",
+   "-o",
+   "extent_server.o"
+  ],
+  "file": "extent_server.cc"
+ },
+ {
+  "directory": "/home/chengzekun/yfs/yfsLab3/lab3",
+  "arguments": [
+   "g++",
+   "-g",
+   "-MMD",
+   "-Wall",
+   "-I.",
+   "-I./rpc",
+   "-DLAB=3",
+   "-DSOL=0",
+   "-D_FILE_OFFSET_BITS=64",
+   "-c",
+   "extent_smain.cc",
+   "-o",
+   "extent_smain.o"
+  ],
+  "file": "extent_smain.cc"
+ },
+ {
+  "directory": "/home/chengzekun/yfs/yfsLab3/lab3",
+  "arguments": [
+   "g++",
+   "-g",
+   "-MMD",
+   "-Wall",
+   "-I.",
+   "-I./rpc",
+   "-DLAB=3",
+   "-DSOL=0",
+   "-D_FILE_OFFSET_BITS=64",
+   "-c",
+   "lock_server.cc",
+   "-o",
+   "lock_server.o"
+  ],
+  "file": "lock_server.cc"
+ },
+ {
+  "directory": "/home/chengzekun/yfs/yfsLab3/lab3",
+  "arguments": [
+   "g++",
+   "-g",
+   "-MMD",
+   "-Wall",
+   "-I.",
+   "-I./rpc",
+   "-DLAB=3",
+   "-DSOL=0",
+   "-D_FILE_OFFSET_BITS=64",
+   "-c",
+   "lock_smain.cc",
+   "-o",
+   "lock_smain.o"
+  ],
+  "file": "lock_smain.cc"
+ },
+ {
+  "directory": "/home/chengzekun/yfs/yfsLab3/lab3",
+  "arguments": [
+   "g++",
+   "-L.",
+   "-L/usr/local/lib",
+   "test-lab-3-b.c",
+   "rpc/librpc.a",
+   "-lpthread",
+   "-lfuse",
+   "-lrt",
+   "-ldl",
+   "-o",
+   "test-lab-3-b"
+  ],
+  "file": "test-lab-3-b.c"
+ },
+ {
+  "directory": "/home/chengzekun/yfs/yfsLab3/lab3",
+  "arguments": [
+   "g++",
+   "-L.",
+   "-L/usr/local/lib",
+   "test-lab-3-c.c",
+   "-lpthread",
+   "-lfuse",
+   "-lrt",
+   "-ldl",
+   "-o",
+   "test-lab-3-c"
+  ],
+  "file": "test-lab-3-c.c"
+ }
+]
